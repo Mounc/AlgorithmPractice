@@ -13,7 +13,7 @@ Output: [0, 2] // 배열[0] + 배열[2] = 8
 */
 
 function f(input, target) {
-  // HashMap (대신 object)을 이용하여 찾는다.
+  // HashMap을 이용하여 찾는다.
   const map = {}
   for (let i = 0; i < input.length; i += 1) {
     const num = target - input[i]
